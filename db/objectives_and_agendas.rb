@@ -47,3 +47,36 @@ AGENDAS = [
     "From 14:10 to 14:25 Assessment of Process and Workflow Impact (15 minutes)"
   ]
 ]
+
+TITLE = [
+  "Strat Plan Retreat: Mapping Success",
+  "Leadership Workshop: Unlocking Potential",
+  "Sales Strategy Summit: Accelerate Growth",
+  "Innovation Forum: Ignite Creativity",
+  "Marketing Analytics: Data-Driven Decisions",
+  "Team Building: Unite for Success",
+  "Financial Forecast Review: Navigating Trends",
+  "Product Launch: Unveiling Next Big Thing",
+  "Client Relationship: Cultivate Trust",
+  "Change Management: Embrace Transformation",
+  "Project Update: Milestones & Deliverables",
+  "Training & Development: Continuous Learning",
+  "Risk Assessment Workshop: Manage Uncertainty",
+  "Customer Experience: Delightful Journeys",
+  "Supplier Collaboration: Strong Partnerships",
+  "Diversity & Inclusion: Foster Belonging",
+  "Operations Optimization: Streamline Efficiency",
+  "Employee Town Hall: Boost Engagement",
+  "Market Research: Insights for Advantage",
+  "Crisis Management: Preparedness & Resilience",
+  "Investor Relations: Build Confidence",
+  "Brand Positioning: Compelling Identity",
+  "Supply Chain Optimization: Efficient Logistics",
+  "Talent Acquisition: Attract Top Talent",
+  "Sustainability Forum: Positive Impact",
+  "IT Planning: Future-proof Technology",
+  "M&A Forum: Maximize Synergies",
+  "Quality Assurance: Excellence in Delivery",
+  "Partnership Meeting: Strategic Alliances",
+  "Customer Feedback: Enhance Experience"
+]

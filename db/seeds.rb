@@ -17,7 +17,6 @@ random_date_time_before_today = rand(start_of_month..now)
 random_date_time_after_today = rand(now..end_of_month)
 
 puts "creating users, videos, meetings, and bookings..."
-
 30.times do
   user = User.create!(
     name: Faker::Name.name,
@@ -37,7 +36,7 @@ puts "creating users, videos, meetings, and bookings..."
     meeting_before_today = Meeting.new(
       start_date_time: random_date_time_before_today,
       end_date_time: random_date_time_before_today + Rational(minutes.sample, 24 * 60),
-      title: Faker::Hacker.say_something_smart,
+      title: TITLE.sample,
       location: "Room: #{Faker::Color.color_name}",
       objectives: OBJECTIVES.sample,
       agenda: AGENDAS.sample,
@@ -51,7 +50,7 @@ puts "creating users, videos, meetings, and bookings..."
     meeting_after_today = Meeting.new(
       start_date_time: random_date_time_after_today,
       end_date_time: random_date_time_after_today + Rational(minutes.sample, 24 * 60),
-      title: Faker::Lorem.sentence(word_count: 3),
+      title: TITLE.sample,
       location: "Room: #{Faker::Color.color_name}",
       objectives: OBJECTIVES.sample,
       agenda: AGENDAS.sample,

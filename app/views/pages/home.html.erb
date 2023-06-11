@@ -1,4 +1,8 @@
 <h1>Pages#home</h1>
 <p> <%= User.first.name %> </p>
-<p> <%= User.first.meetings.first.description %> </p>
-<p> <%= Meeting.first.video.actions %> </p>
+<p> <%= User.first.meetings.first.title %> </p>
+<% Meeting.first.video.actions.each do |action| %>
+ <p> <%= "Action: #{action["action"]}" %> </p>
+ <p> <%= "Responsable: #{action["owner"]}" %> </p>
+ <% end %>
+<p> <%= Meeting.first.video.actions.first["owner"] %> </p>
