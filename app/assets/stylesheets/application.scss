@@ -13,3 +13,18 @@
 
 @import "flatpickr/dist/flatpickr.css";
 // @import "flatpickr/dist/themes/airbnb";
+
+body {
+  background-image: url('key-logo.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: $headers-color;
+}
+
+H3 {
+  color: $sub-headers-color;
+}

@@ -5,12 +5,10 @@
   grid-template-columns: 20% 80%;
   overflow: auto;
   scroll-behavior: smooth;
-  background-color: $background-color;
   padding-bottom: 3rem;
 }
 
 .right .container {
-  background-color: $background-color;
   box-shadow: none;
 }
 
