@@ -11,8 +11,10 @@
 @import "components/index";
 @import "pages/index";
 
-@import "flatpickr/dist/flatpickr.css";
+// @import "flatpickr/dist/flatpickr.css";
 // @import "flatpickr/dist/themes/airbnb";
+
+@import "simple_calendar";
 
 body {
   background-image: url('key-logo.jpeg');
