@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_21_092259) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_24_062917) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -30,8 +30,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_21_092259) do
     t.string "title"
     t.text "description"
     t.string "location"
-    t.text "objectives"
-    t.text "agenda"
+    t.text "objectives", default: [], array: true
+    t.text "agenda", default: [], array: true
     t.bigint "video_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
