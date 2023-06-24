@@ -10,7 +10,7 @@
   <div class="objectives">
     <h4> Objectives:</h4>
     <ul>
-    <%= @meeting.objectives.each do |objective| %>
+    <% @meeting.objectives.each do |objective| %>
       <li><p><%= objective %> </p></li>
     <% end %>
     </ul>
@@ -18,7 +18,7 @@
   <div class="agenda">
     <h4> Agenda:</h4>
     <ul>
-    <%= @meeting.agenda.each do |agenda| %>
+    <% @meeting.agenda.each do |agenda| %>
       <li><p><%= agenda %> </p></li>
     <% end %>
     </ul>
