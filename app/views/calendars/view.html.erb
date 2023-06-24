@@ -1,12 +1,15 @@
 <div class="container">
+
   <%= month_calendar(events: @meetings, attribute: :start_date_time ) do |date, meetings|%>
     <%= date %>
     <% meetings.each do |meeting| %>
-      <% if meeting.user == current_user %>
-        <%= meeting.title.capitalize %>
-      <% else %>
-        <%= meeting.title.capitalize %>
-      <% end %>
+      <%= link_to meeting_path(meeting) do %>
+        <% if meeting.user == current_user %>
+          <%= meeting.title.capitalize %>
+        <% else %>
+          <%= meeting.title.capitalize %>
+        <% end %>
+      <% end  %>
     <% end  %>
   <% end %>
 </div>

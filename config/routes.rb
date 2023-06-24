@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
-  get 'calendars/view'
   devise_for :users
-  root to: "pages#home"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
-  get "calendars", to: "calendars#view"
+  root to: "calendars#view"
+  get "calendar/view", to: "calendars#view"
+  resources :meetings
 end

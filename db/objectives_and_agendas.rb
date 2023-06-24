@@ -80,3 +80,39 @@ TITLE = [
   "Partnership Meeting: Strategic Alliances",
   "Customer Feedback: Enhance Experience"
 ]
+
+DESCRIPTION = [
+  "Our Executive Sponsor of IE&D, Yien Hong, will be facilitating the session where we will have the honour of hearing from our guest speaker Elizabeth Lane. Elizabeth is a Relationship Manager with Pride in Diversity, Australia’s first and only national not-for-profit employer support program for all aspects of LGBTQ workplace inclusion. Elizabeth will kick off our session by taking us through what allyship means and its impact to individuals and communities.",
+  "s mentioned this morning, we are finalising numbers for the Finance Goodbye FY23 Event on Thursday 22th June.
+
+  We are running a bowling tournament at Strike at Melbourne Central (arrive at 5.15pm, bowling starts at 5.30pm). Food, drinks and prizes to be provided.
+
+  We currently have 31 confirmed attendees per the below and link  can you please confirm by end of today:
+
+  Your attendance status is correct (we are prepaying lanes and players)
+  Let us know by email, teams or in the file:
+  If you plan to attend but not bowl …  if not specified well assume all attendees will be bowling.
+  If you have any dietary requirements.",
+  "This is the monthly Data Quality Forum Meeting. Please use the Teams chat to participate in the Data Quality between meetings.",
+  "Our Chief Economic Advisor Warren Hogan will be delivering weekly communications around economic happenings in the SME world.
+
+
+
+  These comms make great talking points with your customers/family/friends and will give excellent insights into the SME sector.
+
+
+
+  Warren will talk us through the points each Monday morning with a related briefing sent later in the day.
+
+
+
+  Note: These calls will be recorded and shared to all invitees should the time not suit.",
+  "re you able to provide any update on:
+
+  Closing down channel Secure Message [High Priority] We continually have a backlog of messages and we are unable to respond in a timely manner.
+  Status update Mapping for Sector Type [Low Priority] just want to ensure a ticket has been raised for this (what is the TSR?)
+
+
+  Welll be catch up tomorrow regarding the existing IB issues."
+
+]
