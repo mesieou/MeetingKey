@@ -1,5 +1,5 @@
 <div class="container">
-  <h1> <%= link_to "Create Meeting", new_meeting_path, class: "btn btn-primary"%> </h1>
+  <h1> <%= link_to "Create Meeting", new_meeting_path, data:{turbo_frame: "modal"}, class: "btn btn-primary"%> </h1>
   <%= month_calendar(events: @meetings, attribute: :start_date_time ) do |date, meetings|%>
     <%= date %>
     <% meetings.each do |meeting| %>
