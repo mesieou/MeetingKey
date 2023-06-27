@@ -7,6 +7,4 @@ class Meeting < ApplicationRecord
   validates :start_date_time, presence: true
   validates :end_date_time, presence: true
   validates :title, presence: true
-  validates :start_time_date, presence: true
-  validates :start_time_date, presence: true
 end
