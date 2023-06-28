@@ -8,6 +8,7 @@ gem "cloudinary"
 gem "faker"
 gem "simple_calendar"
 gem 'bootstrap-modal-rails', '~> 2.2', '>= 2.2.5'
+gem 'byebug', '~> 11.1', '>= 11.1.3'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"

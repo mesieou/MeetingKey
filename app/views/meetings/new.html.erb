@@ -1,15 +1,5 @@
 <%= turbo_frame_tag :modal do %>
   <div class="container">
-      <%= simple_form_for(@meeting) do |f| %>
-      <%= f.input :description, label: false, placeholder: 'Enter description' %>
-      <%= text_field_tag :users, nil, class: "form-control", placeholder: 'Enter users' %>
-      <%= f.input :start_date_time, label: false, placeholder: 'Start date/time' %>
-      <%= f.input :end_date_time, label: false, placeholder: 'End date/time' %>
-      <%= f.input :title, label: false, placeholder: 'Title' %>
-      <%= f.input :location, label: false, placeholder: 'Location' %>
-      <%= f.input :objectives, label: false, placeholder: 'Objectives' %>
-      <%= f.input :agenda, label: false, placeholder: 'Agenda' %>
-      <%= f.submit class: "btn btn-flat"%>
-    <% end %>
+   <%= render 'form', meeting: @meeting   %>
   </div>
 <% end  %>

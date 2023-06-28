@@ -10,16 +10,26 @@ class MeetingsController < ApplicationController
 
   def create
     @meeting = Meeting.new(meeting_params)
+    @meeting.user = current_user
     respond_to do |format|
       if @meeting.save
         format.turbo_stream do
-          render turbo_stream: turbo_stream.prepend("meetings", partial: "meetings/show", locals: { meeting: @meeting })
+          render turbo_stream: turbo_stream.prepend("modal", partial: "meetings/form", locals: { meeting: @meeting })
+        end
+        format.turbo_stream do
+          render turbo_stream: turbo_stream.replace("modal", partial: "meetings/new", locals: { meeting: @meeting })
         end
         format.html { redirect_to meeting_path(@meeting), notice: "Meeting was successfully created." }
         format.json { render :show, status: :created, location: @meeting }
       else
         format.html { render :new, status: :unprocessable_entity }
         format.json { render json: @meeting.errors, status: :unprocessable_entity }
+      end
+    end
+
+    if @meeting.errors.any?
+      @meeting.errors.full_messages.each do |message|
+        puts message
       end
     end
   end
