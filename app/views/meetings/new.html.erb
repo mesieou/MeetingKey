@@ -1,5 +1,7 @@
-<%= turbo_frame_tag :modal do %>
-  <div class="container">
-   <%= render 'form', meeting: @meeting   %>
-  </div>
-<% end  %>
+<div class="container">
+  <%= turbo_frame_tag "modal2" do %>
+    <div class="modal2">
+     <%= render 'form', meeting: @meeting %>
+    </div>
+  <% end %>
+</div>
